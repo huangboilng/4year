@@ -1,0 +1,261 @@
+/*
+ * DrGrab Style Sheet
+ */
+
+body{font-family:Verdana, Helvetica, Arial, sans-serif; text-align:center; width:100%; margin:0 auto; background-color:#fff; color:#fff;}
+img{max-width:100%;}
+a, a:hover, a:visited, a:active{ color:#fff; text-decoration:none;}
+.clearfix{clear: both;}
+@media (min-width:1200px){.container{width: 1200px;}}
+.dg-main-friend-box-more, .dg-main-friend-box-more:hover, .dg-main-friend-box-morea, .dg-main-friend-box-morea:hover{color: #ccc;}
+#bgbox{width:100%; height:auto;float: left;padding:4em 4em 0; overflow:hidden;}
+.content-boxshadow{-moz-box-shadow:1px -9px 15px #b0b0b0; -webkit-box-shadow:1px -9px 15px #b0b0b0; box-shadow:1px -9px 15px #b0b0b0; background-color:#fff;}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{ padding-left:0; padding-right:0;}
+.row { margin-right: 0px;margin-left: 0px; }
+.leadbig {
+	font-size: 1.6em;
+	display: inline-block;
+}
+
+.dg-main-msg-box{ background:url(../images/rebbg.png) center; text-align:center; color:#fae2e1; padding:26px 0;}
+.dg-main-msg h5.dg-main-msg-two{ margin-bottom:2em;}
+.dg-main-msg h5{ line-height:1.8em;}
+.dg-main-msg, .timeline, .dg-main-zt-box-msg, .dg-main-footer-msg{padding-left: 1.8em; padding-right: 1.8em;}
+
+.dg-main-zt-box{ background-color:#e63021;}
+.dg-main-zt-box-title{ font-weight:bold;}
+.dg-main-zt-box-msg{ margin-bottom:3.6em; line-height:2em; font-size:14px;}
+.dg-main-zt-box-list{ margin-bottom:5em;}
+.dg-main-friend-box-title{ color:#e63021; font-weight:bold; line-height:2em;display: block;width: 100%;}
+.dg-main-friend-box a{display:inline-block; margin-bottom:1.6em; width:93%;}
+.dg-main-friend-box img{border:1px solid #ccc;}
+.dg-main-footer-box{ 
+	float:left;
+	position:relative;width:100%;
+}
+#email1bg{ position:absolute;
+	width: 100%;bottom: 100px;
+	z-index: -1;left: 0;
+}
+#emai21bg{ position:absolute;
+	width: 100%;
+	z-index: 888;left: 0;bottom: 0px;
+}
+#weibo{
+	position:absolute;top: 30em;z-index: 999;left: 8em;
+}
+#weixin{
+	position:absolute;top: 23em;z-index: 999;right:0em;
+}
+#zdimg{position:absolute;top: 40em;z-index: 999; left:15em;}
+#weiboshow{display:none;}
+.dg-main-footer-msg{ padding:0 76px;
+	bottom: 0px;
+	z-index: 666;left: 0;
+}
+.dg-main-footer-msg p{color:#797979; text-align:left;}
+.dg-main-footer-msgp2{margin:.6em 0 2.3em;}
+.dg-main-footer-emailbox{ position:relative;}
+.dg-main-account-hander img{margin-top: .6em; margin-bottom: 3em;}
+#highdu{height:800px;}
+.websitebox{ 
+	position: absolute;
+	left: 9em;
+	top: 43em;
+	z-index: 999;
+	width:100%;
+}
+#bigincidentbg1 img{
+	position:absolute;right: 6em;
+	min-width: 370px;top:-3em;
+	min-height: 300px;;
+}
+#bigincidentbg2 img{
+	position:absolute;left: 47em;
+	min-width: 230px;top: 30em;
+	min-height: 560px;;
+}
+
+#bigincidentbg2{
+	position:absolute;
+}
+@media (max-width:1200px){
+	#zdimg{ left:8em;}
+	#bigincidentbg1 img {
+		right: 0em;
+		top: -2em;
+	}
+	#bigincidentbg2 img {
+		left: 38em;
+	}
+}
+@media (max-width:960px){
+	#weibo{display:none;}
+	#weixin{display:none;}
+	#weiboshow{ display:block;position:absolute;top: 40em;z-index: 999;left: 18em;}
+	.dg-main-footer-msg {padding: 0 1.8em;}
+	#zdimg {top: 27em; left:0;}
+	#highdu{height:538px;}
+	.websitebox {
+		left: 0em;
+		top:30em;
+	}
+	#bgbox{padding: 1em .3em 0;}
+	.dg-main-friend-box-title{line-height:1.6em; margin-bottom:.6em;}
+	.dg-main-zt-box-list {
+		margin-bottom: 3em;
+	}
+	.dg-main-zt-box-msg{margin-bottom:1.6em;}
+	.leadbig {
+		font-size: 1.3em;
+	}
+	.dg-main-account-hander img{margin-top: .3em; margin-bottom: 2em;}
+	#bigincidentbg1 img, #bigincidentbg2 img{
+		display:none;
+	}
+}
+@media (max-width:760px){
+	#highdu{height:528px;}
+	.websitebox {
+		left: 0em;
+		top:25em;
+	}
+	#zdimg {top: 23em; left:0;}
+}
+@media (max-width:500px){
+	#highdu{height:440px;}
+	.websitebox {
+		left: 0em;
+		top:25.2em;
+	}
+	#zdimg {top: 24em; left:0;}
+}
+.timeline * {
+  margin: 0;
+  padding: 0;
+  text-align:left; color:#696969;
+}
+
+.point-time {
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 27px;
+  left: 18%;
+  background: #e63021;
+  margin-left: -4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #fff;
+}
+
+.text-red {
+  color: #e22a1e;
+}
+
+.text-blue {
+  color: #1c87bf;
+}
+
+.text-green {
+  color: #95c91e;
+}
+
+.text-yellow {
+  color: #ffb902;
+}
+
+.text-purple {
+  color: #d32d93;
+}
+
+.point-red {
+  background-color: #e22a1e;
+}
+
+.point-blue {
+  background-color: #1c87bf;
+}
+
+.point-navyblue {
+  background-color: #379DD5;
+}
+
+.point-green {
+  background-color: #95c91e;
+}
+
+.point-green-dm {
+  background-color: #80B82A;
+}
+
+
+.point-yellow {
+  background-color: #ffb902;
+}
+
+.point-purple {
+  background-color: #d32d93;
+}
+
+.point-pink {
+  background-color: #e48099;
+}
+
+.timeline {
+  margin: 0 auto 3em;
+  font-size: 1em;
+  text-align: left;
+  position:relative;
+}
+
+.timeline p{
+  text-indent:10px;
+}
+.timeline article {
+  position: relative;
+}
+.timeline article > h3 {
+  width: 15%;
+  height: 20px;
+  text-align: right;
+  font-size: 1.4em;
+  color: #1d1d1d;
+  padding: 10px 0 20px;
+}
+.timeline article section {
+  padding: 0 0 4px;
+  position: relative; line-height:3em;
+}
+.timeline article section:before {
+  content: "";
+  width: 5px;
+  top: 27px;
+  bottom: -17px;
+  left: 18%;
+  background: #d9d9d9;
+  position: absolute;
+}
+.timeline article section:last-child:before {
+  display: none;
+}
+.timeline article section time {
+  width: 15%;
+  display: block;
+  position: absolute;
+}
+.timeline article section time > span {
+  display: block;
+  text-align: right;
+  margin-top:12px;
+  color: #484848;
+}
+.timeline article section aside {
+  color: #3a3a38;
+  margin-left: 22%;
+  padding-top: 12px;
+}
+.timeline article section .brief {
+  color: #9f9f9f;
+}
